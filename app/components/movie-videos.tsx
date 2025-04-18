@@ -1,5 +1,5 @@
 import { error } from "console";
-import { API_URL } from "../(home)/page";
+import { API_URL } from "../../app/constants";
 import styles from "../styles/movie-videos.module.css";
 
 async function getVideos(id:string) {
